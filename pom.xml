@@ -17,6 +17,7 @@
 		<module>eureka-server</module>
 		<module>cloud-demo01</module>
 		<module>eureka-server01</module>
+		<module>eureka-client01</module>
 	</modules>
 
 </project>
