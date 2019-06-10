@@ -16,6 +16,7 @@
 		<module>eureka-server01</module>
 		<module>eureka-client01</module>
 		<module>consul-client01</module>
+		<module>eureka-consumer01</module>
 	</modules>
 
 	<build>
