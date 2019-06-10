@@ -17,7 +17,15 @@
 		<module>eureka-client01</module>
 		<module>consul-client01</module>
 		<module>eureka-consumer01</module>
-	</modules>
+        <module>eureka-consumer-ribbon</module>
+    </modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<resources>
