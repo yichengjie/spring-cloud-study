@@ -8,9 +8,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 //Eureka Client的属性都在EurekaClientConfig类接口中定义处理方法
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
+public class EurekaClientApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(Application.class)
+        new SpringApplicationBuilder(EurekaClientApplication.class)
             .web(true).run(args);
     }
 }

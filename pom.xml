@@ -18,6 +18,7 @@
 		<module>consul-client</module>
 		<module>eureka-consumer</module>
         <module>eureka-consumer-ribbon</module>
+        <module>eureka-consumer-feign</module>
     </modules>
 
 	<dependencies>
