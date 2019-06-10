@@ -13,10 +13,10 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<modules>
-		<module>eureka-server01</module>
-		<module>eureka-client01</module>
-		<module>consul-client01</module>
-		<module>eureka-consumer01</module>
+		<module>eureka-server</module>
+		<module>eureka-client</module>
+		<module>consul-client</module>
+		<module>eureka-consumer</module>
         <module>eureka-consumer-ribbon</module>
     </modules>
 

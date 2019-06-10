@@ -1,10 +1,8 @@
 spring:
   application:
-    name: eureka-consumer01
+    name: eureka-client
 server:
-  port: 2101
-  
-
+  port: 2001
 eureka:
   client:
     service-url:

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-client02
+    name: eureka-client
   cloud:
     consul:
       host: localhost
