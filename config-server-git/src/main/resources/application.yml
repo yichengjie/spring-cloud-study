@@ -5,7 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: http://git.oschina.net/didispace/config-repo-demo/
+          uri: https://github.com/yichengjie/config-client
+          username: 626659321@qq.com
+          password: xxxxx
 server:
   port: 1201
   
