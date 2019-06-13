@@ -19,4 +19,12 @@ public class DcController {
         log.info("provider service ======> " + services);
         return services;
     }
+    
+    @GetMapping("/dc2")
+    public String dc2() throws InterruptedException {
+    	Thread.sleep(5000L);
+        String services = "Services: " + discoveryClient.getServices();
+        log.info("provider service ======> " + services);
+        return services;
+    }
 }
