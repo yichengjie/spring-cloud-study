@@ -10,9 +10,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableDiscoveryClient
 @EnableConfigServer
 @SpringBootApplication
-public class EurekaServerApplication {
+public class EurekaServerApplication2 {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(EurekaServerApplication.class)
+        new SpringApplicationBuilder(EurekaServerApplication2.class)
             .web(true).run(args);
     }
 }
