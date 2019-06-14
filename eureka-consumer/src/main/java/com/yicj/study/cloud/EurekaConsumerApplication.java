@@ -11,9 +11,9 @@ import org.springframework.web.client.RestTemplate;
 //Eureka Client的属性都在EurekaClientConfig类接口中定义处理方法
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
+public class EurekaConsumerApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(Application.class)
+        new SpringApplicationBuilder(EurekaConsumerApplication.class)
             .web(true).run(args);
     }
 

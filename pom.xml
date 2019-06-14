@@ -27,6 +27,7 @@
 		<module>config-client2</module>
 		<module>eureka-consumer-ribbon-hystrix</module>
 		<module>hystrix-dashboard</module>
+		<module>api-gateway</module>
     </modules>
 
 	<dependencies>
