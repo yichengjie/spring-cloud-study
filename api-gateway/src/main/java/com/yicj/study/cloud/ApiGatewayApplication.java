@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import com.yicj.study.cloud.filter.AccessFilter;
 
 //https://blog.csdn.net/u011531425/article/details/81713441
-//http://blog.didispace.com/spring-cloud-starter-dalston-1/
+//http://blog.didispace.com/spring-cloud-learning/
 //Eureka Client的属性都在EurekaClientConfig类接口中定义处理方法
 @EnableZuulProxy
 @SpringCloudApplication

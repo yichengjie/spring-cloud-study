@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: swagger-service-b
+server:
+  port: 10011
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
+swagger:
+  base-package: com.yicj.study.cloud.controller 
+      
