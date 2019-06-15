@@ -1,11 +1,15 @@
 spring:
   application:
-    name: api-gateway
+    name: swagger-api-gateway
 
 server:
-  port: 1101
+  port: 11001
   
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:1001/eureka/
+  
+logging:
+  level:
+    root: info
