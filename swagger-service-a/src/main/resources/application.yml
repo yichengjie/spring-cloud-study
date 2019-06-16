@@ -9,4 +9,8 @@ eureka:
       defaultZone: http://localhost:1001/eureka/
 swagger:
   base-package: com.yicj.study.cloud.controller 
+
+logging:
+  level:
+    root : info
       

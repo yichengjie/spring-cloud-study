@@ -1,9 +1,8 @@
 package com.yicj.study.cloud;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-
 import com.spring4all.swagger.EnableSwagger2Doc;
 //https://blog.csdn.net/u011531425/article/details/81713441
 //http://blog.didispace.com/spring-cloud-learning/
@@ -13,7 +12,6 @@ import com.spring4all.swagger.EnableSwagger2Doc;
 @SpringBootApplication
 public class SwaggerServerBApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(SwaggerServerBApplication.class)
-            .web(true).run(args);
+        SpringApplication.run(SwaggerServerBApplication.class, args) ;
     }
 }
