@@ -9,3 +9,18 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:1001/eureka/
+      
+logging:
+  level:
+    root: debug
+    
+zuul:
+  routes:
+    eureka-client: 
+      path: /eureka-client/**
+      service-id: eureka-client
+#    eureka-consumer: 
+#      path: /eureka-consumer/**
+#      service-id: eureka-consumer
+
+      

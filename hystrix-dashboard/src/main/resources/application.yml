@@ -3,3 +3,6 @@ spring:
     name: hystrix-dashboard
 server: 
   port: 1301
+logging:
+  level:
+    root: info

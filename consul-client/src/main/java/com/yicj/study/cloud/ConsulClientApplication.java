@@ -1,7 +1,7 @@
 package com.yicj.study.cloud;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 //https://blog.csdn.net/u011531425/article/details/81713441
 //http://blog.didispace.com/spring-cloud-starter-dalston-1/
@@ -10,7 +10,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 public class ConsulClientApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(ConsulClientApplication.class)
-            .web(true).run(args);
+        SpringApplication.run(ConsulClientApplication.class, args) ;
     }
 }

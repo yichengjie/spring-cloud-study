@@ -1,5 +1,6 @@
 package com.yicj.study.cloud;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -14,8 +15,8 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class EurekaConsumerRibbonApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(EurekaConsumerRibbonApplication.class)
-            .web(true).run(args);
+        SpringApplication.run(
+        		EurekaConsumerRibbonApplication.class, args) ;
     }
 
     //初始化RestTemplate，用来真正发起REST请求

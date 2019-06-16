@@ -1,5 +1,6 @@
 package com.yicj.study.cloud;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
@@ -16,8 +17,8 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class EurekaConsumerRibbonHystrixApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(EurekaConsumerRibbonHystrixApplication.class)
-            .web(true).run(args);
+        SpringApplication.run(
+        		EurekaConsumerRibbonHystrixApplication.class, args) ;
     }
 
     //初始化RestTemplate，用来真正发起REST请求

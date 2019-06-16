@@ -1,9 +1,6 @@
 package com.yicj.study.cloud.filter;
 
 import javax.servlet.http.HttpServletRequest;
-
-import org.springframework.stereotype.Component;
-
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 

@@ -13,7 +13,8 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class EurekaConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaConsumerApplication.class, args) ;
+        SpringApplication.run(
+        		EurekaConsumerApplication.class, args) ;
     }
 
     //初始化RestTemplate，用来真正发起REST请求

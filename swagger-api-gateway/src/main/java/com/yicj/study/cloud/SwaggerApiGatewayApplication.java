@@ -1,7 +1,7 @@
 package com.yicj.study.cloud;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import com.spring4all.swagger.EnableSwagger2Doc;
 //https://blog.csdn.net/u011531425/article/details/81713441
@@ -14,8 +14,7 @@ import com.spring4all.swagger.EnableSwagger2Doc;
 //@SpringCloudApplication
 public class SwaggerApiGatewayApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(SwaggerApiGatewayApplication.class)
-            .web(true).run(args);
+       SpringApplication.run(SwaggerApiGatewayApplication.class, args) ;
     }
     //http://localhost:1101/eureka-consumer/consumer：返回401错误
     //http://localhost:1101/eureka-consumer/consumer?accessToken=token：
