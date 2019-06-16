@@ -7,4 +7,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:1001/eureka/
-      
+logging:
+  level:
+    root: info      
